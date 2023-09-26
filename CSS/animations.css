@@ -1,0 +1,22 @@
+/* animations.css */
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the fade-in animation to the "animated" class */
+.animated {
+  animation-duration: 1s; /* Duration of the animation */
+  animation-fill-mode: both;
+}
+
+/* Apply the "fadeIn" animation to the element with class "fadeIn" */
+.fadeIn {
+  animation-name: fadeIn;
+}
